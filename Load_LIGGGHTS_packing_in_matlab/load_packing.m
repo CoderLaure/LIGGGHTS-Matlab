@@ -1,9 +1,7 @@
+% CODE by Laure Lemrich, Nov 2017 at ETH Zurich
+%
 % Read a packing
 function dat = load_packing(file)
-
-
-%file = 'D:\dataSHEAR\SHEAR-XXX-20MPa-1\sendwavecase_13800000_A2e-5\dump.13816355.packing';
-
 
 dat = struct;
 
