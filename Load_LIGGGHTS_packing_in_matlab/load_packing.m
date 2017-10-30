@@ -32,7 +32,7 @@ for loopl = 1:length(lines)
 	C = lines{loopl}(1:end-1);
 	C = sprintf('%s*', C{:});
 	dat.vals(loopl,:) = sscanf(C, '%f*')';
-end
+end 
 
 
 
