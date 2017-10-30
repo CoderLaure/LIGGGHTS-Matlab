@@ -1,5 +1,5 @@
 % CODE by Laure Lemrich, Nov 2017 at ETH Zurich
-%
+% 
 % Read a packing
 function dat = load_packing(file)
 
@@ -31,8 +31,5 @@ for loopl = 1:length(lines)
 	C = sprintf('%s*', C{:});
 	dat.vals(loopl,:) = sscanf(C, '%f*')';
 end 
-
-
-
 
 end
