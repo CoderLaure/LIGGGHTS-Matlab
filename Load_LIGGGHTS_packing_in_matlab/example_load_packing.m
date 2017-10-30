@@ -3,7 +3,9 @@
 % This code lets you load a packing from LIGGGHTS dump command directly
 % into matlab. Works also in loops (but beware file sizes).
 % 
-% 
+% LIGGGHTS function described here: https://www.cfdem.com/media/DEM/docu/dump.html 
+%
+%
 % Load a packing ----------------------------------------------------------
 
 file = 'dump.1191000.packing';
